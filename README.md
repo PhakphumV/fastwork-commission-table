@@ -1,35 +1,39 @@
-# Fastwork Commission Table
+# ตารางวิเคราะห์ค่าธรรมเนียมของ Fastwork
 
-As per Fastwork commision table (checked on 20JAN2023) [Link](https://static.fastwork.co/contents/commission),
+## จุดประสงค์
+
+จากตารางค่าธรรมเนียมของ Fastwork [ตามลิงค์](https://static.fastwork.co/contents/commission) หรือตามรูป
 ![Fastwork Commission Table](https://static.fastwork.co/images/commission/commission1.jpg)
+อัพเดทล่าสุด 20JAN2023
 
-## Analysis
-Performed on 20JAN2023
-
-The values in the heatmap are the cost saving in percentage relative to total price when compare between a single order vs multiple orders
-
-For example, between a project quoted as 18,000 THB vs 3 projects quoted as 6,000 THB
-- A project quoted as 18k THB will be charged for Fastwork commission fee as the following:
-  - 0-10k Tier will be charged with 17% : 10,000 * 0.17 = 1,700 THB
-  - 10-50k Tier will be charged with 12% : 8000 * 0.12 = 960 THB
-  - In total, 2,660 THB
-- A project quoted as 6k THB will be charged for Fastwork commission fee as the following:
-  - 0-10k Tier will be charged with 17% : 6,000 * 0.17 = 1,020 THB
-- 3 project quoted as 6k THB each will be charged for Fastwork commission fee in total of 1,020 x 3 = 3,060 THB
-- Therefore by having a single project over multiple project, you can save 3,060 - 2,660 = 400 THB
-- Which is 400/18000 = ~2.22% saving of the total price.
+ผมตั้งข้อสังเกตว่าหากเราเปิดออร์เดอร์ในราคาที่สูงจะยิ่งมีการเสียค่าธรรมเนียมที่น้อยลง ซึ่ง
+จึงได้ลองทำการจำลองว่าระหว่างเปิดออร์เดอร์หนึ่งออร์เดอร์ในราคาสูงกับเปิดออร์เดอร์หลายออร์เดอร์ในราคาต่ำ 
+โดยที่ยอดรวมของทั้งสองกรณีเท่ากันแล้ว และหาข้อสรุปว่ามีส่วนต่างกันมากน้อยเพียงใด ระหว่างสองกรณีนี้
 
 
-### Price from 5,000 to 50,000 THB. Step: 5,000 THB
+## ผลการวิเคราะห์
+ดำเนินการเมื่อวันที่ 20JAN2023
+
+ตัวเลขในตารางจะเป็น อัตราร้อยละของส่วนต่างกับยอดรวมเมื่อเปรียบเทียบระหว่างกรณี หนึ่งออร์เดอร์ กับ หลายออร์เดอร์ ในยอดรวมที่เท่ากัน
+
+ตัวอย่างเช่น ระหว่าง หนึ่งงาน ในราคา 18,000 บาท กับ สามงาน ในราคางานละ 6,000 บาท
+- ออร์เดอร์งานราคา 18k บาท จะถูกหักค่าธรรมเนียมให้กับ Fastwork ในจำนวนเงิน : 2,660 บาท
+- ออร์เดอร์งานราคา 6k บาท  จะถูกหักค่าธรรมเนียมให้กับ Fastwork ในจำนวนเงิน : 1,020 บาท
+- หากเป็น ออร์เดอร์งานราคา 6k จำนวนสามงาน จะทำให้ถูกหักค่าธรรมเนียมรวมถึง : 3,060 บาท
+- ส่วนต่างระหว่างการเปิด หนึ่งออร์เดอร์ กับ สามออร์เดอร์ คือ 3,060 - 2,660 = 400 บาท
+- เท่ากับว่าการเปิดหนึ่งออร์เดอร์ประหยัดค่าธรรมเนียมได้ 400 บาท ซึ่งคิดเป็น ~2.22% ของยอดรวม (18,000 บาท)
+
+
+### ตารางราคาจาก 5,000 ถึง 50,000 บาท. ขั้นละ 5,000 THB
 ![Heatmap 5000 THB step](./heatmap_5k.png)
 
-### Price from 2,000 to 50,000 THB. Step: 2,000 THB
+### ตารางราคาจาก 2,000 ถึง 50,000 THB. ขั้นละ: 2,000 THB
 ![Heatmap 2000 THB step](./heatmap_2k.png)
 
-### Price from 1,500 to 50,000 THB. Step: 1,500 THB
+### ตารางราคาจาก 1,500 ถึง 50,000 THB. ขั้นละ: 1,500 THB
 ![Heatmap 1500 THB step](./heatmap_1500.png)
 
-### Price from 1,000 to 50,000 THB. Step: 1,000 THB
+### ตารางราคาจาก 1,000 ถึง 50,000 THB. ขั้นละ: 1,000 THB
 ![Heatmap 1000 THB step](./heatmap_1000.png)
 
 
