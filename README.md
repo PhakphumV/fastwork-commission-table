@@ -2,3 +2,21 @@
 
 As per Fastwork commision table (checked on 20JAN2023) [Link](https://static.fastwork.co/contents/commission),
 ![Fastwork Commission Table](https://static.fastwork.co/images/commission/commission1.jpg)
+
+## Setup
+
+Create virtual environment
+```
+virtualenv venv
+``
+
+Activate virtual environment
+
+```
+. .\venv\Scripts\activate
+```
+
+Install dependencies
+```
+pip install -r requirements.txt
+```
