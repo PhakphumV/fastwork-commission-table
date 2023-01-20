@@ -45,7 +45,7 @@
 Create virtual environment
 ```
 virtualenv venv
-``
+```
 
 Activate virtual environment
 
