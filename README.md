@@ -37,7 +37,7 @@
 ![Heatmap 1500 THB step](./heatmap_1500.png)
 
 ### ตารางราคาจาก 1,000 ถึง 50,000 THB. ขั้นละ: 1,000 THB
-![Heatmap 1000 THB step](./heatmap_1000.png)
+![Heatmap 1000 THB step](./heatmap_1k.png)
 
 
 ## Setup
