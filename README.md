@@ -39,6 +39,30 @@
 
 ### วิเคราะห์ราคาที่ประกาศใน Fastwork
 
+#### ราคาแบ่งตามหมวดหมู่ใหญ่
+![Market Price](./price_market.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Design Graphic
+![Market Price Design Graphic](./price_market-design-graphic.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Marketing Advertising
+![Market Price Marketing Advertising](./price_market-marketing-advertising.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Photography Video
+![Market Price Photography Video](./price_market-photography-video.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Writing Translation
+![Market Price Writing Translation](./price_market-writing-translation.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Web Programming
+![Market Price Web Programming](./price_market-web-programming.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Consultant
+![Market Price Consultant](./price_market-consultant.png)
+
+#### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Operation
+![Market Price Operation](./price_market-operation.png)
+
 ### ส่วนต่างระหว่างเปิดหนึ่งออร์เดอร์ กับ หลายออร์เดอร์
 
 ตัวเลขในตารางจะเป็น อัตราร้อยละของส่วนต่างกับยอดรวมเมื่อเปรียบเทียบระหว่างกรณี หนึ่งออร์เดอร์ กับ หลายออร์เดอร์ ในยอดรวมที่เท่ากัน
