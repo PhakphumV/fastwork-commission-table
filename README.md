@@ -42,6 +42,10 @@
 #### ราคาแบ่งตามหมวดหมู่ใหญ่
 ![Market Price](./price_market.png)
 
+หรือ
+
+![Swarm Plot Market Price](./swarmplot_price_market.png)
+
 #### ราคาแบ่งตามหมวดหมู่ย่อยใต้ Design Graphic
 ![Market Price Design Graphic](./price_market-design-graphic.png)
 
