@@ -1,0 +1,470 @@
+{
+  "__type": {
+    "name": "User",
+    "kind": "OBJECT",
+    "fields": [
+      {
+        "name": "id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "id_mongo",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "created_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "updated_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "first_name",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "last_name",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "display_name",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "email",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "email_verified",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "email_verified_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "level",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "gender",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "image",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "account_status",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "product_slots",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_selling",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "username",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "phone_number",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "last_online_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "affiliation_id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "date_of_birth",
+        "type": {
+          "name": "Date",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "website",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "role",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "phone_number_verified",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "phone_number_verified_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_flagged",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "flag_reason",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "account_status_note",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_affiliating",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "affiliate_code",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "about_me",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "rating",
+        "type": {
+          "name": "Float",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "source",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "address",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "postal_code",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "current_income",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "desired_income",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "lifestyle",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "video_url",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "seller_verification_status",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "seller_verified_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "province",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "country",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "freelance_type",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "show_phone_number",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "banned_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "ban_days",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "app_platform",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "app_version",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "survey_score",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_deleted",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "deleted_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_standard_verified",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "allow_new_onboard",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "third_party_tokens",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      },
+      {
+        "name": "pre_messages",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      },
+      {
+        "name": "allowed_features",
+        "type": {
+          "name": "UserAllowedFeature",
+          "kind": "OBJECT"
+        }
+      },
+      {
+        "name": "withdrawal_tax_summary",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      },
+      {
+        "name": "credits",
+        "type": {
+          "name": "None",
+          "kind": "NON_NULL"
+        }
+      },
+      {
+        "name": "pending_withdrawal_credits",
+        "type": {
+          "name": "None",
+          "kind": "NON_NULL"
+        }
+      },
+      {
+        "name": "bank_accounts",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      },
+      {
+        "name": "coin",
+        "type": {
+          "name": "None",
+          "kind": "NON_NULL"
+        }
+      },
+      {
+        "name": "experiences",
+        "type": {
+          "name": "UserExperiences",
+          "kind": "OBJECT"
+        }
+      },
+      {
+        "name": "products",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      },
+      {
+        "name": "is_new_buyer",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "seller_profile",
+        "type": {
+          "name": "UserSellerProfile",
+          "kind": "OBJECT"
+        }
+      }
+    ]
+  }
+}

@@ -138,3 +138,8 @@ Install dependencies
 ```
 pip install -r requirements.txt
 ```
+
+## TODO
+- [ ] Retrieve products via graphql instead
+- [ ] Retrive Sellers reviews to estimate number of hiring and cost
+- [ ] Capture HTTP / API traffic from mobile app

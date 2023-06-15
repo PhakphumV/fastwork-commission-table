@@ -1,0 +1,218 @@
+{
+  "__type": {
+    "name": "Product",
+    "kind": "OBJECT",
+    "fields": [
+      {
+        "name": "id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "title",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "slug",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "base_price",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "banned_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "ban_days",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "price_before_discount",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "base_delivery_time",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "status",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "algolia_status",
+        "type": {
+          "name": "Int",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "show",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "auto_message",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "enable_auto_message",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "enable_auto_message_offline",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "user_id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "category_id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "subcategory_id",
+        "type": {
+          "name": "UUID",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_hot",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_pro",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "ready_to_work_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_instant_hire",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_standard_verified",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "enable_translation",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "last_approved_at",
+        "type": {
+          "name": "Time",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "show_phone_number",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "extra_description",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "is_live",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "disapprove_reason",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR"
+        }
+      },
+      {
+        "name": "images",
+        "type": {
+          "name": "None",
+          "kind": "LIST"
+        }
+      }
+    ]
+  }
+}
