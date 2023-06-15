@@ -1,0 +1,498 @@
+{
+	'__type': {
+		'fields': [
+			{
+				'name': 'about_seller',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'algolia_status',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'attribute_values',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'auto_message',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'badges',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'badges_new',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'ban_days',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'banned_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'base_delivery_time',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'base_price',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'base_price_description',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'base_price_max',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'bio',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'category',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductCategory'
+				}
+			},
+			{
+				'name': 'category_id',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'completion_rate',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'created_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'description',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'detail_decor',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductDetailDecor'
+				}
+			},
+			{
+				'name': 'enable_auto_message',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'enable_auto_message_offline',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'enable_translation',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'extra_description',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'extras',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'favorites',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'featured',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'fw_score',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'fw_score_1',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'fw_score_2',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'fw_score_3',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'fw_score_4',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'has_seller_coupon',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'hide_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'id',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'images',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'inquiries_count',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'is_hot',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'is_instant_hire',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'is_new',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'is_new_onboard',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'is_pro',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'is_standard_verified',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'last_approved_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'option_images',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'overall_rating',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductRatingV2'
+				}
+			},
+			{
+				'name': 'packages',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'price_before_discount',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'purchase',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'purchase_count',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'rating',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Float'
+				}
+			},
+			{
+				'name': 'ready_to_work_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'rehire_orders_count',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'reviews',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'reviews_count',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductReviewCount'
+				}
+			},
+			{
+				'name': 'revision_policy',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'show',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'show_phone_number',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Boolean'
+				}
+			},
+			{
+				'name': 'slug',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'socials',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'status',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'subcategory',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductSubcategory'
+				}
+			},
+			{
+				'name': 'subcategory_id',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'tags',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'title',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'updated_at',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'user',
+				'type': {
+					'kind': 'OBJECT',
+					'name': 'ProductUser'
+				}
+			},
+			{
+				'name': 'user_id',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'String'
+				}
+			},
+			{
+				'name': 'views',
+				'type': {
+					'kind': 'SCALAR',
+					'name': 'Int'
+				}
+			},
+			{
+				'name': 'websites',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			},
+			{
+				'name': 'work_steps',
+				'type': {
+					'kind': 'LIST',
+					'name': None
+				}
+			}
+		],
+		'kind': 'OBJECT',
+		'name': 'Product'
+	}
+}

@@ -1,0 +1,148 @@
+{
+  "__type": {
+    "fields": [
+      {
+        "name": "active",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "allow_new_product",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "bottom_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "h1",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "has_alternate_locale",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "icon",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "icon_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "icon_image",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "icon_name",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "image",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "navbar_image",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "sitemap_anchor",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "slug",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "sort_order",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "subcategory_groups",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "title",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "title_seo",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "top_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      }
+    ],
+    "kind": "OBJECT",
+    "name": "ProductCategory"
+  }
+}

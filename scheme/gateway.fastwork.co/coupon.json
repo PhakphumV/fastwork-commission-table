@@ -1,0 +1,148 @@
+{
+  "__type": {
+    "fields": [
+      {
+        "name": "active",
+        "type": {
+          "kind": "NON_NULL",
+          "name": "None"
+        }
+      },
+      {
+        "name": "amount",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "condition",
+        "type": {
+          "kind": "OBJECT",
+          "name": "CouponCondition"
+        }
+      },
+      {
+        "name": "condition_id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "coupon_code",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "created_at",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "expiry_date",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "is_percent",
+        "type": {
+          "kind": "NON_NULL",
+          "name": "None"
+        }
+      },
+      {
+        "name": "is_public",
+        "type": {
+          "kind": "NON_NULL",
+          "name": "None"
+        }
+      },
+      {
+        "name": "maximum",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "minimum",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "reusable",
+        "type": {
+          "kind": "NON_NULL",
+          "name": "None"
+        }
+      },
+      {
+        "name": "start_date",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "total_limit",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "type",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "updated_at",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "use_with_promotion",
+        "type": {
+          "kind": "NON_NULL",
+          "name": "None"
+        }
+      },
+      {
+        "name": "value",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      }
+    ],
+    "kind": "OBJECT",
+    "name": "Coupon"
+  }
+}

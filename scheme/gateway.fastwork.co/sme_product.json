@@ -1,0 +1,78 @@
+{
+  "__type": {
+    "fields": [
+      {
+        "name": "base_price",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Float"
+        }
+      },
+      {
+        "name": "check_list",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "images",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "product_id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "results",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "slug",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "title",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "work_steps",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      }
+    ],
+    "kind": "OBJECT",
+    "name": "SMEProduct"
+  }
+}

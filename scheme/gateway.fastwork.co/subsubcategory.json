@@ -1,0 +1,85 @@
+{
+  "__type": {
+    "fields": [
+      {
+        "name": "bottom_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "h1",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "keyword",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "listing_seo",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "sitemap_anchor",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "sort_order",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "taxonomy_slug",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "taxonomy_title",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "title_seo",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "top_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      }
+    ],
+    "kind": "OBJECT",
+    "name": "Subsubcategory"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "__type": {
+    "fields": [
+      {
+        "name": "active",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "allow_fast",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "allow_new_product",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "attributes",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "avg_rating",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Float"
+        }
+      },
+      {
+        "name": "bottom_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "category",
+        "type": {
+          "kind": "OBJECT",
+          "name": "ProductSubcategoryCategory"
+        }
+      },
+      {
+        "name": "category_id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "filters",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "h1",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "has_alternate_locale",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "has_social",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "hot",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "icon",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "id",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "image",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "intention_list",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "is_new",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Boolean"
+        }
+      },
+      {
+        "name": "listing_seo",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "minimum_price",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Float"
+        }
+      },
+      {
+        "name": "reviews_count",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "sitemap_anchor",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "slug",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "sort_order",
+        "type": {
+          "kind": "SCALAR",
+          "name": "Int"
+        }
+      },
+      {
+        "name": "subcategory_group_icon_name",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "subsubcategories",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "subtitle",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "suggested_tags",
+        "type": {
+          "kind": "OBJECT",
+          "name": "ProductSubcategoryAttribute"
+        }
+      },
+      {
+        "name": "system_attributes",
+        "type": {
+          "kind": "LIST",
+          "name": "None"
+        }
+      },
+      {
+        "name": "title",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "title_seo",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      },
+      {
+        "name": "top_page_description",
+        "type": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      }
+    ],
+    "kind": "OBJECT",
+    "name": "ProductSubcategory"
+  }
+}
